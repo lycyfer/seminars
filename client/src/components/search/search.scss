@@ -47,13 +47,13 @@
         width: 552px;
         padding: 10px;
         position: absolute;
-        top: 105%; // Располагаем блок под полем ввода
+        top: 105%; 
         left: 0;
         border-radius: 10px;
         margin-top: 5px;
-        max-height: 0; // Начальная высота (скрыто)
+        max-height: 0; 
         overflow: hidden;
-        opacity: 0; // Начальная прозрачность (скрыто)
+        opacity: 0; 
         transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out;
         z-index: 10;
         // overflow: scroll;
